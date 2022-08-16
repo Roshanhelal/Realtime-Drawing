@@ -1,0 +1,34 @@
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px gray;
+}
+.note {
+    font-size: 15px;
+    color: black;
+}
+.copy_right_footer {
+    position: fixed;
+    width: 100%;
+    line-height: 2;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    background-color: grey;
+}
+canvas {
+    border: 2px solid white;
+    border-radius: 20;
+    animation-name:gigo ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes gigo {
+    from{
+     box-shadow: 1px 1px 38px rgb(0, 213, 255);
+    }
+    to{
+        box-shadow: 1px 1px 38px rgb(119, 0, 255);   
+    }
+}
